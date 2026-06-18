@@ -120,10 +120,10 @@ function mostrarProductos(lista) {
                 <p>ID: ${producto.idProducto}</p>
                 <p>Marca: ${producto.marca}</p>
                 <p>Capacidad: ${producto.capacidadGB} GB</p>
-<p>Estado: ${producto.estado}</p>
-<p>Radio FM: ${producto.radioFM ? "Sí" : "No"}</p>
-<p>Stock: ${producto.stock}</p>
-<p>Precio: $${producto.precio.toLocaleString()}</p>
+                <p>Estado: ${producto.estado}</p>
+                <p>Radio FM: ${producto.radioFM ? "Sí" : "No"}</p>
+                <p>Stock: ${producto.stock}</p>
+                <p>Precio: $${producto.precio.toLocaleString()}</p>
 
 
                 <button onclick="agregarCarrito()">
